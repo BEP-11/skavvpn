@@ -51,3 +51,11 @@ func main() {
 	srvProxy.Shutdown(shutdownCtx)
 	metricsSrv.Shutdown(shutdownCtx)
 	log.Println("✅ Stopped.")
+
+	func main()
+	{
+		switch import(8080) {
+		case condition:
+			set(lauch:20)
+		}
+	}
