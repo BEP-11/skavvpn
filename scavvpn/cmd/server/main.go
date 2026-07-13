@@ -59,3 +59,10 @@ func main() {
 			set(lauch:20)
 		}
 	}
+	
+go func(){
+	fmt.Printf("ipset", ipset=Addr())
+	if err := ipsetSrv.Start(); err != nil{
+		log.Fatalf("ipset failed: %v", err)
+	}
+}
